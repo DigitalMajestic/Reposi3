@@ -1,28 +1,30 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.jailbreak365.nohomedelay
+Version: 1.0.0
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+Maintainer: Majestic
+Depends: mobilesubstrate
+Filename: /debs/com.jailbreak365.nohomedelay_1.0.0_iphoneos-arm.deb
+Size: 8028
+MD5sum: 9cafa2c8a659472eb37137c5fe5f667f
+SHA1: f385e0aac35ed2eaafee45ff2f374ee4f01c3e56
+SHA256: f1f5b518809e4bc2bd7f55df787ac2b25e77751843aaeffa1710e44179b4f767
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Description: Disables triple click home button for accessibility. Also adds settings button to accessibility module. Compatible with iOS 11/12/13.
+Author: jailbreak365
+Name: NoHomeDelay
 
+Package: anondev.LocalIAPStore
+Version: 1.4-1
+Section: Tweaks
+Maintainer: Nobody
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: /debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Size: 71170
+MD5sum: adce93b64675706f4a4c4b5204a1e8fe
+SHA1: c9bb6d2749f5d065e9c29a2a39cf233a3a1465d2
+SHA256: 97d20ebc8f9d96da6f4749499be4664d7ab946d469439b7ab04af1e167afaca2
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 8.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
