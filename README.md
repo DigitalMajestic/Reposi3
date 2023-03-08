@@ -1,12 +1,4 @@
-## Archived
-
-I started this project to provide a non-complex way for IOS Jailbreak tweak developers to host packages and depictions on their personal repositories. What started as a hobby has become one of the most popular Cydia repo templates - 272 forks and 173 stars as of this writing.
-
-But life catches up and what was a hobby now has reached it's time to wind down. 
-
-Thank you for all the support.
-
----
+## Majestic's Cydia repo
 
 # Reposi3
 
